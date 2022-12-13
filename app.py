@@ -11,4 +11,4 @@ cartao = random.choice(cartoes)
 data_aniversario = datetime.strptime(input('Informe data de aniversario dd/mm/aaaa: '), '%d/%m/%Y')
 
 # Módulo 2
-print(f'Olá {usuario}, seu registro foi concluído com sucesso no dia {data_cadastro.day}/{data_cadastro.month}/{data_cadastro.year}. Parabéns, houve um sorteio e você ganhou um cartão de compras no valor de {cartao}')
+print(f'Olá {usuario}, seu registro foi concluído com sucesso no dia {data_cadastro.day}/{data_cadastro.month}/{data_cadastro.year}. \nParabéns, houve um sorteio e você ganhou um cartão de compras no valor de {cartao}')
